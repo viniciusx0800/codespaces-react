@@ -1,14 +1,58 @@
 .App{
-  background: rgba(2, 16, 43, 0.171);
-  color: rgb(60, 53, 170);
+  background: rgba(0, 0, 0, 0.966);
+  color: rgb(170, 53, 53);
   text-align: center;
-  height: auto;
+  /* height: 400px; */
   width: 360px;
   border-radius: 30px;
-  margin: 70vh;
   border: 5px solid ;
+  padding: 0px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.466);
+  margin: auto;
+  margin-top: 50px;
 }
+
+input{
+  background: #242425;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  border: none;
+  width: 200px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 0 0 10px #5353e4;
+}
+
+.button-en{
+  background-color: #363434;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button-en:hover{
+  background-color: #5353e4;
+}
+
 
 .vaso-h1{
   font-weight: bold;
+}
+
+ul{
+text-align: left;
+padding-left: 50px;
+color: #8fc1fa;
 }
